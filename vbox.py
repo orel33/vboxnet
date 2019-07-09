@@ -7,7 +7,7 @@ vdi="/tmp/kali.vdi"
 vboxpath=""
 vboxmanage=vboxpath+"VBoxManage"
 
-
+#number of Virtual Machines to be created
 nvm=2
 
 
@@ -17,7 +17,7 @@ subprocess.call([vboxmanage,"modifyhd",vdi,"--type","immutable",])
 #os.system(cmd)
 
 
-#network
+#configure the NAT network
 cmd=vboxmanage+" natnetwork add --netname mynatnetwork --network  \"192.168.15.0/24\" --enable --dhcp on"
 print(cmd)
 subprocess.call([vboxmanage,"natnetwork","add","--netname","mynatnetwork","--network","\"192.168.15.0/24\"","--enable","--dhcp","on"])
@@ -25,6 +25,7 @@ subprocess.call([vboxmanage,"natnetwork","add","--netname","mynatnetwork","--net
 
 for x in range(nvm):
 
+    #add and configure a VM whose name is clone<x>
     name="clone"+str(x)
     
     cmd=vboxmanage+" createvm --name \""+name+"\" --ostype Debian_64 --register"
