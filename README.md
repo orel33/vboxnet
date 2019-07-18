@@ -61,7 +61,7 @@ sous linux
 root@machine# VBoxManage modifyhd 27c8cd04-617c-49bb-bbc7-ffe5751448ad --autoreset off
 ```
 sous windows:
-```bash
+```dos
 C:\> cd Program Files\Oracle\VirtualBox
 C:\Program Files\Oracle\VirtualBox> VBoxManage modifyhd 27c8cd04-617c-49bb-bbc7-ffe5751448ad --autoreset off
 ```
