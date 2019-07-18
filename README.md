@@ -48,7 +48,7 @@ ressembler à ceci:
 
 ![](figures/run.png)
 
-##Remarques
+## Remarques
 
 * Le nombre de machines virtuelles est défini par la variable *nvm* dans
   le script python
@@ -70,10 +70,15 @@ ressembler à ceci:
        commande) pour activer la persistance:
     
 sous linux
-    root@machine# VBoxManage modifyhd 27c8cd04-617c-49bb-bbc7-ffe5751448ad --autoreset off
+```bash
+root@machine# VBoxManage modifyhd 27c8cd04-617c-49bb-bbc7-ffe5751448ad --autoreset off
+```
 sous windows:
-    C:\> cd Program Files\Oracle\VirtualBox
-    C:\Program Files\Oracle\VirtualBox> VBoxManage modifyhd 27c8cd04-617c-49bb-bbc7-ffe5751448ad --autoreset off
+```bash
+C:\> cd Program Files\Oracle\VirtualBox
+C:\Program Files\Oracle\VirtualBox> VBoxManage modifyhd 27c8cd04-617c-49bb-bbc7-ffe5751448ad --autoreset off
+```
+
 
 * Pour supprimer les machines virtuelles qui on été ajoutées, il
 suffit de les sélectionner et d'utiliser le clic droit et sélectionner
