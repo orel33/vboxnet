@@ -10,7 +10,8 @@
 ## Description
 
 Nous allons configurer VirtualBox de telle sorte qu'on puisse lancer n
-machines virtuelles qui sont toutes dans un réseau local
+machines virtuelles Linux (la distribution étant de type
+[*Kali*](https://www.kali.org)) qui sont toutes dans un réseau local
 (192.168.15.0/24) et qui auront accès à internet via la machine
 hôte. Afin d'éviter de gaspiller de l'espace de stockage inutillement,
 nous allons utiliser une seule image et dire à VirtualBox de ne
