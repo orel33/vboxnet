@@ -1,6 +1,6 @@
-#Mise en place d'un réseau simple de machines virtuelles VirtualBox
+# Mise en place d'un réseau simple de machines virtuelles VirtualBox
 
-##Prérequis
+## Prérequis
 
 * Installer le logiciel VirtualBox ([https://www.virtualbox.org](https://www.virtualbox.org)).
 
