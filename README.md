@@ -37,7 +37,7 @@ Il suffit alors de démarrer les machines virtuelles appelées *clone0*,
 des machines. Une fois cette étape effectuée, il y aura autant de
 nouvelles fenêtres que de machines virtuelle. Le résultat devrait
 ressembler à ceci:
-![](figures/run.png)
+![](figures/launch.png)
 
 ## Remarques
 * Le nombre de machines virtuelles est défini par la variable *nvm* dans
